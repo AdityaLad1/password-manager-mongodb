@@ -1,0 +1,50 @@
+const PlusCircleIcon = ({ className = "w-32 h-32" }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 430 430"
+      className={className}
+      fill="none"
+    >
+      <path
+        fill="#ebe6ef"
+        d="M214.5 383c92.508 0 167.5-74.992 167.5-167.5S307.008 48 214.5 48 47 122.992 47 215.5 121.992 383 214.5 383"
+      />
+
+      <path
+        fill="#ebe6ef"
+        d="M306.32 355.86a167.875 167.875 0 0 1-198.206-11.415 167.87 167.87 0 0 1-48.72-192.464 167.88 167.88 0 0 1 99.226-95.12 167.888 167.888 0 0 0 28.344 296.433 167.9 167.9 0 0 0 119.356 2.566"
+        opacity="0.5"
+        style={{ mixBlendMode: "multiply" }}
+      />
+
+      <path
+        stroke="#121331"
+        strokeLinejoin="round"
+        strokeWidth="7"
+        d="M214.5 383c92.508 0 167.5-74.992 167.5-167.5S307.008 48 214.5 48 47 122.992 47 215.5 121.992 383 214.5 383Z"
+      />
+
+      <path
+        fill="#2ca58d"
+        d="M241.875 115H188.75v73.75H115v53.125h73.75V315h53.125v-73.125H315V188.75h-73.125z"
+      />
+
+      <path
+        fill="#2ca58d"
+        d="M215 315V115h-26.25v73.75H115v53.125h73.75V315z"
+        opacity="0.5"
+        style={{ mixBlendMode: "multiply" }}
+      />
+
+      <path
+        stroke="#121331"
+        strokeLinejoin="round"
+        strokeWidth="7"
+        d="M241.875 115H188.75v73.75H115v53.125h73.75V315h53.125v-73.125H315V188.75h-73.125z"
+      />
+    </svg>
+  );
+};
+
+export default PlusCircleIcon;
